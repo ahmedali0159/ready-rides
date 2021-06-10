@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Dropdown = ({isOpen, toggle}) => {
   return (
-    <div className={isOpen ? "grid grid-rows-4 text-center items-center bg-yellow-500" : "hidden"}
+    <div style={{background:"#EC6608", color:'#00305A'}} className={isOpen ? "grid grid-rows-4 text-center items-center font-bold" : "hidden"}
      onClick={toggle}>
        
       <Link to="/" className="p-4">

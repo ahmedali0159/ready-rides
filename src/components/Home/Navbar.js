@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({toggle}) => {
   return (
     <nav className="flex justify-between items-center h-16 bg-white text-black relative shadow-md font-mono" role="navigation">
-      <Link to="/" className="pl-8">
+      <Link to="/" style={{color: '#00305A'}} className="pl-8 text-2xl">
         Ready Rides.
       </Link>
       <div onClick={toggle} className="px-4 cursor-pointer md:hidden">
@@ -23,7 +23,7 @@ const Navbar = ({toggle}) => {
           />
         </svg>
       </div>
-      <div className="pr-8 md:block hidden">
+      <div style={{color:'#00305A'}} className="pr-8 text-2xl md:block hidden">
         <Link to="/" className="p-4">Home</Link>
         <Link to="/about" className="p-4">About Us</Link>
         <Link to="/process" className="p-4">Process</Link>
