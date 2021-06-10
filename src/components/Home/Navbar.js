@@ -26,7 +26,7 @@ const Navbar = ({toggle}) => {
       <div style={{color:'#00305A'}} className="pr-8 text-2xl md:block hidden">
         <Link to="/" className="p-4">Home</Link>
         <Link to="/about" className="p-4">About Us</Link>
-        <Link to="/process" className="p-4">Process</Link>
+        <Link to="/services" className="p-4">Services</Link>
         <Link to="/contact" className="p-4">Contact Us</Link>
       </div>
     </nav>
