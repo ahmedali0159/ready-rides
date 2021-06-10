@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import headerImage from "../../images/18177541-car-img-01_1000000000000000000028.png";
 import Services from "../Services/Services";
+import Footer from "./Footer";
 
 const Home = () => {
   const [isAnimated, setIsAnimated] = useState(false);
@@ -43,6 +44,7 @@ const Home = () => {
         </div>
       </main>
       <Services />
+      <Footer />
     </>
   );
 };
